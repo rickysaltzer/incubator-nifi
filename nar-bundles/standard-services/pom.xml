@@ -34,6 +34,8 @@
         <module>ssl-context-bundle</module>
         <module>ssl-context-service-api</module>
         <module>standard-services-api-nar</module>
+		<module>http-context-map-api</module>
+		<module>http-context-map-bundle</module>
     </modules>
 
 </project>

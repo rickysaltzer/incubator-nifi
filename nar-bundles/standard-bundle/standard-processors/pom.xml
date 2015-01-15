@@ -138,6 +138,10 @@
         </dependency>
         <dependency>
             <groupId>org.apache.nifi</groupId>
+            <artifactId>http-context-map-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
             <artifactId>distributed-cache-client-service</artifactId>
             <scope>test</scope>
         </dependency>

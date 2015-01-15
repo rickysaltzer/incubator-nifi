@@ -19,32 +19,16 @@
         <artifactId>standard-services-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-	
-    <artifactId>standard-services-api-nar</artifactId>
+
+    <artifactId>http-context-map-bundle</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Standard Services API Nar</name>
-    <packaging>nar</packaging>
-	
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>ssl-context-service-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>distributed-cache-client-service-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>load-distribution-service-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>http-context-map-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <packaging>pom</packaging>
+
+    <name>HTTP Context Map Bundle</name>
+
+    <modules>
+        <module>http-context-map</module>
+        <module>http-context-map-nar</module>
+    </modules>
+    
 </project>

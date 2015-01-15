@@ -16,35 +16,24 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.nifi</groupId>
-        <artifactId>standard-services-parent</artifactId>
+        <artifactId>http-context-map-bundle</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 	
-    <artifactId>standard-services-api-nar</artifactId>
+    <artifactId>http-context-map-nar</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Standard Services API Nar</name>
+    <name>HTTP Context Map Nar</name>
     <packaging>nar</packaging>
 	
     <dependencies>
         <dependency>
             <groupId>org.apache.nifi</groupId>
-            <artifactId>ssl-context-service-api</artifactId>
-            <scope>compile</scope>
+            <artifactId>standard-services-api-nar</artifactId>
+            <type>nar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>distributed-cache-client-service-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>load-distribution-service-api</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.nifi</groupId>
-            <artifactId>http-context-map-api</artifactId>
-            <scope>compile</scope>
+        	<groupId>org.apache.nifi</groupId>
+        	<artifactId>http-context-map</artifactId>
         </dependency>
     </dependencies>
 </project>
